@@ -1,0 +1,4 @@
+.test ::before {
+    font-family: "Ionicons";
+    content: "\f3d1";
+}

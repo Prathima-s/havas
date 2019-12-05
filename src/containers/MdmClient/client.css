@@ -1,0 +1,13 @@
+.ant-select-tree li span.ant-select-tree-switcher.ant-select-tree-switcher_open:after {
+    font-size: 25px!important;
+    content: '\2212'!important;
+}
+
+.ant-select-tree li span.ant-select-tree-switcher.ant-select-tree-switcher_close:after {
+    content: '\002B'!important;
+    font-size: 25px!important;
+}
+
+.ant-select-selection.ant-select-selection--single, .ant-select-selection.ant-select-selection--single:hover, .ant-select-selection.ant-select-selection--single:focus {
+    border: 0.5px solid #3a3a3a; 
+}

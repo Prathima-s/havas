@@ -1,0 +1,76 @@
+.ant-collapse {
+    background-color: transparent;    
+}
+
+.ant-collapse .ant-collapse-item {
+    margin-bottom: 10px !important;
+}
+
+.ant-collapse {
+    background-color: transparent;    
+}
+
+.ant-radio-group {
+    display: flex;
+}
+
+.ant-radio-checked .ant-radio-inner {
+    border-color: black;
+}
+.ant-radio-inner::after {
+    background-color: black;
+}
+
+.ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+    border-color: black;
+}
+
+  .ant-form-item .ant-switch {
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+
+  .ant-switch-checked {
+    background-color:green;
+  }
+
+  .ant-switch-checked::after {
+      margin-left: -27px;
+  }
+
+  .ant-switch::after {
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+  }
+
+  .ant-select .ant-select-selection:hover {
+    border-color: #00AED0 !important;
+}
+
+.ant-select .ant-select-selection:focus {
+    border-color: #00AED0 !important;
+}
+
+.contactTabData {
+    border: none;
+    min-width: 100px;
+}
+.ant-tabs-bar {
+    background-color: none !important;
+}
+.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-radius: 20px 20px 0 0 !important;
+    background-color: rgb(234, 234, 234) !important;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow {
+    left: 98% !important;
+}
+
+.ant-select-selection.ant-select-selection--single {
+    border-radius: 35px !important; 
+    background-color: rgb(249, 249, 249);
+    border: 0.5px solid #3a3a3a !important;
+}

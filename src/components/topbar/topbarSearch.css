@@ -1,0 +1,22 @@
+.ant-select-selection__choice {
+    margin-right: 0;
+    background: transparent !important;
+    border: none !important;
+}
+
+.ant-select-selection--multiple .ant-select-selection__choice__remove {
+    color: red;
+}
+
+.ant-select-selection--multiple > ul > li, .ant-select-selection--multiple .ant-select-selection__rendered > ul > li {
+    margin-top: 10px !important;
+    margin-right: 0 !important;
+}
+
+.ant-select-selection.ant-select-selection--multiple {
+    height: auto !important;
+    border-radius: 35px;
+}
+.ant-select-selection.ant-select-selection--single,.ant-select-selection.ant-select-selection--single:hover, .ant-select-selection.ant-select-selection--single:focus  {
+    border: none;
+}

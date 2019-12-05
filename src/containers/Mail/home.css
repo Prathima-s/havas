@@ -1,0 +1,12 @@
+.userSearch {
+    width: 500px;
+}
+
+.ant-select-selection {
+    border-radius: 35px;
+    height: 40px;
+}
+
+.layoutBox p {
+    margin-bottom: 1px;
+}

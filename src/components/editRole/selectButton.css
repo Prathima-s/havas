@@ -1,0 +1,50 @@
+.star-cb-group {
+  font-size: 0;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    position: relative;
+    float: left;
+    top: -58px;
+    left: 7px;
+}
+.star-cb-group * {
+  font-size: 1rem;
+}
+.star-cb-group > input[type = radio] {
+  position: relative;
+  width: 71%;
+  height: 1.1em;
+  opacity: 0;
+  top: 30px;  
+  cursor: pointer;
+}
+.star-cb-group > input[type = radio] + label {
+  /* only enough room for the star */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 1em;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size:28px;
+}
+.star-cb-group > input[type = radio] + label:before {
+  display: inline-block;
+  text-indent: -9999px;
+  content: "☆";
+  color: #888;
+}
+.star-cb-group > input[type = radio]:checked + label:before  {
+  content: "★";
+  color: #00AED0;
+  text-shadow: 0 0 1px #333;
+}
+.star-cb-group > .star-cb-clear + label {
+  text-indent: -9999px;
+  width: .5em;
+  margin-left: -.5em;
+}
+.star-cb-group > .star-cb-clear + label:before {
+  width: .5em;
+}
+
