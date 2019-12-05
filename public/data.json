@@ -1,0 +1,49 @@
+{
+    "jours": [
+      {
+        "id": "Havas Media",
+        "jour": "HM"
+      },
+      {
+        "id": "Accumen Digital",
+        "jour": "AD"
+      },
+      {
+        "id": "Forward 1 UK LTD",
+        "jour": "FL"
+      },
+      {
+        "id": "Target Media",
+        "jour": "TM"
+      },
+      {
+        "id": "MI Media 1",
+        "jour": "MM"
+      },
+      {
+        "id": "MI Media 2",
+        "jour": "MM6"
+      },
+      {
+        "id": "MI Media 3",
+        "jour": "MM5"
+      },
+      {
+        "id": "MI Media 4",
+        "jour": "MM4"
+      },
+      {
+        "id": "MI Media 5",
+        "jour": "MM3"
+      },
+      {
+        "id": "MI Media 6",
+        "jour": "MM2"
+      },
+      {
+        "id": "MI Media 7",
+        "jour": "MM1"
+      }
+    ]
+  }
+  
